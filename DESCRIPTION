@@ -1,0 +1,19 @@
+Package: footballR
+Title: R package to obtain football (soccer) data from APIs
+Version: 0.0.1
+Authors@R: person("David", "Sheehan", email = "davidfsheehan87@gmail.com", role = c("aut", "cre"))
+Description: R package that calls various free soccer APIs
+Depends: R (>= 3.1.1)
+License: MIT + file LICENSE
+URL: https://github.com/dashee87/socceR
+BugReports: http://www.github.com/dashee87/socceR/issues
+Maintainer: David Sheehan <davidfsheehan87@gmail.com>
+LazyData: true
+Imports:
+    httr,
+    jsonlite
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
